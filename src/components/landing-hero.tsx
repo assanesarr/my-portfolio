@@ -47,7 +47,8 @@ export default function LandingHero() {
             </FadeUp>
             <FadeUp key="description" duration={0.6} delay={0.2}>
               <div className="mt-8 max-w-3xl text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-xl">
-                 Ingénieur en développement logiciel et en réseaux de télécommunications, spécialisé dans la conception de systèmes distribués à grande échelle.
+                 Ingénieur en développement logiciel et en réseaux de télécommunications, 
+                 spécialisé dans la conception de systèmes distribués à grande échelle.
               </div>
             </FadeUp>
           </AnimatePresence>

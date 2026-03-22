@@ -1,15 +1,15 @@
-import {
-  SiExpress,
-  SiSocketdotio,
-  SiPrisma,
-  SiNextdotjs,
-  SiFlask,
-} from "react-icons/si";
-import {
-  FramerMotionIcon,
-  ReactRouterDomIcon,
-  VitePwaIcon,
-} from "@/components/icons";
+// import {
+//   // SiExpress,
+//   // SiSocketdotio,
+//   // SiPrisma,
+//   SiNextdotjs,
+//   // SiFlask,
+// } from "react-icons/si";
+// import {
+//   FramerMotionIcon,
+//   ReactRouterDomIcon,
+//   VitePwaIcon,
+// } from "@/components/icons";
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 
 // Languages
@@ -24,24 +24,24 @@ import QemuSvg from "@/public/icons/qemu.svg";
 
 // Libraries
 import ReactjsSvg from "@/public/icons/reactjs.svg";
-import SolidjsSvg from "@/public/icons/solidjs.svg";
-import ReduxSvg from "@/public/icons/redux.svg";
+// import SolidjsSvg from "@/public/icons/solidjs.svg";
+// import ReduxSvg from "@/public/icons/redux.svg";
 import PodmanSvg from "@/public/icons/podman.svg";
 import NomadSvg from "@/public/icons/nomad.svg";
 import KubernetesSvg from "@/public/icons/kubernetes.svg";
 
 // Backend
-import NodejsSvg from "@/public/icons/nodejs.svg";
+// import NodejsSvg from "@/public/icons/nodejs.svg";
 
 // Database and ORMS
-import MongoDBSvg from "@/public/icons/mongodb.svg";
-import PostgressSvg from "@/public/icons/postgresql.svg";
+// import MongoDBSvg from "@/public/icons/mongodb.svg";
+// import PostgressSvg from "@/public/icons/postgresql.svg";
 
 // Tools and Tech
-import GitSvg from "@/public/icons/git.svg";
+// import GitSvg from "@/public/icons/git.svg";
 import DockerSvg from "@/public/icons/docker.svg";
-import AwsSvg from "@/public/icons/aws.svg";
-import PostmanSvg from "@/public/icons/postman.svg";
+// import AwsSvg from "@/public/icons/aws.svg";
+// import PostmanSvg from "@/public/icons/postman.svg";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
@@ -86,7 +86,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       },
       {
         name: "Angular",
-        icon: SiNextdotjs,
+        icon: AngularSvg,
       },
       // {
       //   name: "Solidjs",
